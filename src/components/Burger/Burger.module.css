@@ -1,0 +1,80 @@
+/* GENERAL STYLES */
+
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  padding: 0;
+  width: 30px;
+  height: 4px;
+  display: block;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+}
+
+.bar1 {
+  top: 0;
+  background-color: #3d3d3d;
+}
+
+.bar2 {
+  top: 13.5px;
+  background-color: #3d3d3d;
+}
+
+.bar3 {
+  right: 0;
+  top: 13.5px;
+  background-color: #3d3d3d;
+}
+
+.bar4 {
+  bottom: 0;
+  background-color: #3d3d3d;
+}
+
+.checkedBar1 {
+  transform: rotate(45deg);
+  transform-origin: -10%;
+  width: 41px;
+}
+
+.checkedBar2 {
+  background-color: transparent;
+  transform: translateX(-40px);
+  color: #ffffff00;
+}
+
+.checkedBar3 {
+  background-color: transparent;
+  transform: translateX(40px);
+  color: #ffffff00;
+}
+
+.checkedBar4 {
+  transform-origin: -10%;
+  transform: rotate(-45deg);
+  width: 41px;
+}
