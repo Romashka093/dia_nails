@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5679fd84360d9e9d77a078e3f01bfbe",
+    "revision": "2d6e8927c673a75b1333e5097cf67a9a",
     "url": "/nails-poppy/index.html"
   },
   {
-    "revision": "dacefd9dcc83f31ea358",
-    "url": "/nails-poppy/static/css/main.835b3cf4.chunk.css"
+    "revision": "f71d5a62874b26244bd7",
+    "url": "/nails-poppy/static/css/main.9314dbac.chunk.css"
   },
   {
-    "revision": "8771bb47e5fb75f4e900",
-    "url": "/nails-poppy/static/js/2.77fb3012.chunk.js"
+    "revision": "43b0abcd1dae5b483f0b",
+    "url": "/nails-poppy/static/js/2.683673bf.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/nails-poppy/static/js/2.77fb3012.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/nails-poppy/static/js/2.683673bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dacefd9dcc83f31ea358",
-    "url": "/nails-poppy/static/js/main.1d82757b.chunk.js"
+    "revision": "f71d5a62874b26244bd7",
+    "url": "/nails-poppy/static/js/main.c5b5c305.chunk.js"
   },
   {
     "revision": "912f1aa6a1e174831247",

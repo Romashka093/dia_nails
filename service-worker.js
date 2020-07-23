@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nails-poppy/precache-manifest.cee4e9bba391c2ee9f779fe1fa65549d.js"
+  "/nails-poppy/precache-manifest.29282e3b79df89b163e7c039acc42b78.js"
 );
 
 self.addEventListener('message', (event) => {
