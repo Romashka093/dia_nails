@@ -1,32 +1,13 @@
-import React, { Component } from 'react';
-// import Menu from './components/Menu/Menu';
+import React from 'react';
+// import { useMediaPredicate } from 'react-media-hook';
 // import { Burger } from '../components/Navigation/Burger/Burger';
-// import { About } from '../components/About/About';
-// import { Pricing } from '../components/Pricing/Pricing';
-// import { Gallery } from '../components/Gallery/Gallery';
-// import { Contacts } from '../components/Contacts/Contacts';
+// import Menu from '../components/Navigation/Menu/Menu';
 
-class HomePage extends Component {
-  state = {};
-  render() {
-    return (
-      <div>
-        {/* <header className={css.header}>
-          <h1 className={css.logo}>Студія МАК</h1>
-          <nav>
-            <Burger />
-          </nav>
-        </header> */}
-        {/* // Menu
-				<main>
-					<About />
-					<Pricing />
-					<Gallery />
-				</main>
-				<Contacts /> */}
-      </div>
-    );
-  }
+function HomePage() {
+  // const mobile = useMediaPredicate('(max-width: 425px)');
+  // const notMobile = useMediaPredicate('(min-width: 768px)');
+  return <div>{/* {mobile && <Burger />}
+      {notMobile && <Menu />} */}</div>;
 }
 
 export default HomePage;

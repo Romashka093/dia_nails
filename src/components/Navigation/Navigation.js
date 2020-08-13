@@ -1,14 +1,19 @@
 import React from 'react';
-import css from './Navigation.module.css';
+import { useMediaPredicate } from 'react-media-hook';
 import { Burger } from './Burger/Burger';
+import Menu from './Menu/Menu';
+import css from './Navigation.module.css';
 
-export const Navigation = () => {
+export function Navigation() {
+  const mobile = useMediaPredicate('(max-width: 425px)');
+  const notMobile = useMediaPredicate('(min-width: 768px)');
   return (
     <header className={css.header}>
-      <h1 className={css.logo}>Студія МАК</h1>
+      <h1 className={css.logo}>Dia Nails</h1>
       <nav>
-        <Burger />
+        {mobile && <Burger />}
+        {notMobile && <Menu />}
       </nav>
     </header>
   );
-};
+}

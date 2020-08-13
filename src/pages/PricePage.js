@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import { Pricing } from '../components/Pricing/Pricing';
 import price from '../services/price.json';
+import withLog from '../components/hoc/withLog';
 
 class PricePage extends Component {
-  state = { manicure: [] };
+  state = {
+    manicure: [],
+    isLoading: false,
+  };
   componentDidMount() {
     this.getAllPrice();
   }
   getAllPrice() {
-    const manicure = price.services.manicure.map(item => {
+    const manicure = price.manicure.map(item => {
       return item;
     });
     this.setState({ manicure });
   }
+
   render() {
     const { manicure } = this.state;
     return (
@@ -23,4 +28,4 @@ class PricePage extends Component {
   }
 }
 
-export default PricePage;
+export default withLog(PricePage);

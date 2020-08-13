@@ -1,24 +1,22 @@
 {
-  "services": {
-    "manicure": [
-      {
-        "service": "классический",
-        "name": "Маникюр",
-        "cost": 80,
-        "currency": "грн."
-      },
-      {
-        "service": "аппаратный",
-        "name": "Маникюр",
-        "cost": 100,
-        "currency": "грн."
-      },
-      {
-        "service": "комбинированный",
-        "name": "Маникюр",
-        "cost": 80,
-        "currency": "грн."
-      }
-    ]
-  }
+  "manicure": [
+    {
+      "name": "Маникюр",
+      "service": "классический",
+      "cost": 80,
+      "currency": "грн."
+    },
+    {
+      "name": "Маникюр",
+      "service": "аппаратный",
+      "cost": 100,
+      "currency": "грн."
+    },
+    {
+      "name": "Маникюр",
+      "service": "комбинированный",
+      "cost": 80,
+      "currency": "грн."
+    }
+  ]
 }

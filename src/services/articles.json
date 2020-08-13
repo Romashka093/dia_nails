@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "name": "Name1",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/564x/47/b6/64/47b66406332bc03526ebcd77fc4e695e.jpg"
+    },
+    {
+      "name": "Name2",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/564x/2a/3a/de/2a3ade6838a1d9eff39289551183a09b.jpg"
+    },
+    {
+      "name": "Name3",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/564x/b2/75/49/b27549695873566e578d3212af7e1eca.jpg"
+    },
+    {
+      "name": "Name4",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/474x/85/c7/46/85c746b60dbb594c394383de00dbb42e.jpg"
+    },
+    {
+      "name": "Name5",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/474x/c9/8b/80/c98b807dfde99db642c317c4f919ad10.jpg"
+    },
+    {
+      "name": "Name6",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/474x/f9/8e/1d/f98e1d8852b271d6ee30400cedd3dbaa.jpg"
+    },
+    {
+      "name": "Name7",
+      "text": "Phasellus a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.",
+      "img": "https://i.pinimg.com/474x/60/a1/48/60a1484788369625f548dcb7fd05c5ed.jpg"
+    }
+  ]
+}
