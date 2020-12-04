@@ -1,5 +1,5 @@
 {
-    "name": "nails-dia",
+    "name": "dia_nails",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -15,7 +15,7 @@
         "react-scripts": "^3.4.3",
         "shortid": "^2.2.15"
     },
-    "homepage": "https://romashka093.github.io/nails-poppy/",
+    "homepage": "https://romashka093.github.io/dia_nails/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
